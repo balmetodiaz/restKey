@@ -17,7 +17,7 @@
 #   Usage: sudo ./run_tests.sh
 echo " ____ini install.sh____"
 ./src
-java -jar mservice.jar &>/dev/null 2>&1 
+java -jar mservice.jar
 lscpu
   #sleep 5
   # run_flask_virtual_home_test
